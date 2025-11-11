@@ -1,0 +1,141 @@
+#logo>img{
+    height: 55px;
+    width: 190px;
+    margin-top: 80px;
+    margin-left: 60px;
+    
+    
+   
+}
+#para>p{
+    margin-left: 87px;
+    margin-top: -10px;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+}
+#login{
+    height: 170px;
+    width: 190px;
+   
+    box-shadow: 1px 1px 3px 0.2px grey;
+    position: relative;
+    margin-left: 380px;
+    margin-top: -120px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+#login>#input1::placeholder{
+    font-size: 8px;
+    padding-left: 6px;
+   
+}
+#login>#input2::placeholder{
+    font-size: 8px;
+    padding-left: 6px;
+   
+}
+#login>#input1{
+    margin-top: 8px;
+    margin-left: 9px;
+    border: 0.5px solid gray;
+    background-color: white;
+    border-radius: 2px;
+    height: 23px;
+    width: 169px;
+    outline: none;
+    font-size: 8px;
+}
+#login>#input2{
+    margin-top: 5px;
+    margin-left: 9px;
+    border: 0.5px solid gray;
+    background-color: white;
+    height: 23px;
+    width: 169px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 8px;
+}
+
+#login>#submit{
+    margin-left: 9px;
+    margin-top: 7px;
+    border-radius: 3px;
+    color: white;
+    background-color: #1877f2;
+    height: 27px;
+    width: 174px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    border: 1px solid white;
+}
+#login>p{
+     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+     margin-left: 62px;
+     font-size: 7px;
+     color: #1877f2;
+}
+#login>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#login>hr{
+    margin-left: 9px;
+    width: 169px;
+    border: 0.1px solid rgb(218, 205, 205);
+    
+}
+#login>#account>button{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 45px;
+    width: 100px;
+    height: 27px;
+    font-size: 8px;
+    background-color: #42b72a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#last>p,#continue>p{
+    display: block;
+    font-size: 7px;
+    position: absolute;
+    top: 245px;
+    left: 420px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+#continue>p{
+    left: 455px;
+}
+#last>p{
+    left: 405px;
+    font-weight: bolder;
+}
+#last>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#login>#input1:focus{
+    border-color: #1877f2;
+    color: black;
+    font-size: 8px;
+
+}
+#login>#input2:focus{
+    border-color: #1877f2;
+     color: black;
+    font-size: 8px;
+    
+}
+body{
+    background-color: #edf4f7;
+}
+#login>#submit:hover{
+    background-color: #3485ee;
+    cursor: pointer;
+}
+#login>#account>button:hover{
+    background-color: #2f921b;
+    cursor: pointer;
+}
